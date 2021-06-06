@@ -1,0 +1,81 @@
+body{
+    background-color:#000;
+}
+.pages-goods h3{
+    text-align: center;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+.pages-goods{
+    background-color: #000;
+}
+.block-with-goods{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 30px;
+}
+.price span{
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.block-info span{
+    color: silver;
+}
+.block-info{
+    margin-top: 20px;
+}
+.desc{
+    margin-top: 20px;
+}
+.desc span{
+    color: #fff;;
+}
+.sitka{
+    margin-top: 20px;
+    color: silver;
+    padding: 5px;
+    border: 1px solid silver;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+}
+.rozmir{
+    color: #fff;
+}
+.number{
+    display: flex;
+    color: white;
+}
+.number p{
+    color: #fff;
+    border: 1px solid silver;
+    width: 50px;
+    text-align: center;
+    border-radius: 45px;
+    
+}
+.number p span{
+    color: #000;
+    background-color:#fff;
+    width: 5px;
+}
+#basket{
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 30px;
+    margin-top: 10px;
+}
+
+@media (max-width:1000px){
+    .block-with-goods{
+        grid-template-columns: 100%;
+    }
+}

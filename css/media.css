@@ -1,0 +1,32 @@
+@media (max-width:1200px){
+    .menu{
+        display: none;
+    }
+    .menu-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 40px;
+    }
+}
+@media (max-width:1000px){
+    .block-footer-contents{
+        width: 90%;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:660px){
+    .goods-cards{
+        grid-template-columns: 100%;
+    }
+    .wrap-footer{
+        margin-top: 200px;
+    }
+    .title-header span{
+        font-size: 18px;
+    }
+    header{
+        grid-template-columns: 50% 50%;
+    }
+}
